@@ -60,6 +60,29 @@ img {
     margin-top: -15px;
 }
 
+nav {
+    text-align: center;
+    background-color: gray;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav li {
+    float: left;
+    width: calc(100% / 7);
+}
+
+nav li a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+}
+
 .clearfix::after {
     content: '';
     display: table;
