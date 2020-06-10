@@ -149,19 +149,30 @@ aside.right {
 }
 
 footer {
-    height: 7.5%;
+    /* height: 7.5%; */
     margin-bottom: 10px;
 }
 
 footer .box {
-    height: 100%;
+    /* height: 100%; */
     padding: 5px;
     border-radius: 3px;
+    text-align: center;
     background-color: snow;
 }
 
 footer p, hr {
     text-align: center;
     font-size: 0.75em;
+    color: lightgray;
+}
+
+footer .icon {
+    display: inline-block;
+    padding: 20px 175px;
+}
+
+footer i {
+    font-size: 1.5em;
     color: lightgray;
 }
